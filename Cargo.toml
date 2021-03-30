@@ -1,0 +1,10 @@
+[package]
+name = "relay"
+version = "0.1.0"
+authors = ["yann@odeyer.com"]
+edition = "2018"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
